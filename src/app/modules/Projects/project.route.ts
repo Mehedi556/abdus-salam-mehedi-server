@@ -17,9 +17,8 @@ router.put(
 router.get('/', 
   ProjectControllers.getAllProjects);
 
-// router.get('/:id', 
-  // auth("admin", "user"), 
-//   ProjectControllers.getSingleProject);
+router.get('/:id',
+  ProjectControllers.getSingleProject);
 
 router.delete('/:id', ProjectControllers.deleteProject);
 

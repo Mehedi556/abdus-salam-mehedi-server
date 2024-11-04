@@ -18,9 +18,8 @@ router.put(
 router.get('/', 
   BlogControllers.getAllBlogs);
 
-// router.get('/:id', 
-  // auth("admin", "user"), 
-//   BlogControllers.getSingleBlog);
+router.get('/:id', 
+  BlogControllers.getSingleBlog);
 
 router.delete('/:id', BlogControllers.deleteBlog);
 

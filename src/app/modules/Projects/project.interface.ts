@@ -4,5 +4,6 @@ export type TProject = {
     description: string;
     projectImage: string;
     technologies: string[];
+    features: string[];
     isDeleted: boolean;
 }

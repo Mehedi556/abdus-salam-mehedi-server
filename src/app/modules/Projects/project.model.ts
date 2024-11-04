@@ -22,6 +22,10 @@ const projectSchema = new Schema<TProject>({
         type: [String],
         required: true,
     },
+    features: {
+        type: [String],
+        required: true,
+    },
     isDeleted: {
         type: Boolean,
         required: true,
