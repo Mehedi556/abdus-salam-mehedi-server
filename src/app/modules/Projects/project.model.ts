@@ -26,6 +26,18 @@ const projectSchema = new Schema<TProject>({
         type: [String],
         required: true,
     },
+    frontendGithubLink: {
+        type: String,
+        required: true,
+    },
+    backendGithubLink: {
+        type: String,
+        required: true,
+    },
+    liveLink: {
+        type: String,
+        required: true,
+    },
     isDeleted: {
         type: Boolean,
         required: true,

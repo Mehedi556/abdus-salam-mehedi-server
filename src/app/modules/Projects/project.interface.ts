@@ -5,5 +5,8 @@ export type TProject = {
     projectImage: string;
     technologies: string[];
     features: string[];
+    frontendGithubLink: string;
+    backendGithubLink: string;
+    liveLink: string;
     isDeleted: boolean;
 }
